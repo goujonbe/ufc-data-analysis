@@ -18,7 +18,7 @@ So, it was an end-to-end data science project from data acquisition to result co
 
 ## Repo architecture
 
-The notebooks repository contains documented python code and conclusions from the analysis in the form of Jupyter notebooks.
+The notebooks directory contains documented python code and conclusions from the analysis in the form of Jupyter notebooks.
 
 The data directory contains the data sets used for this project.
 
@@ -28,7 +28,7 @@ For this project, I used [Anaconda](https://www.anaconda.com/), a popular data s
 
 Python version: **3.6.6**
 
-I am a huge fan of **jupyter notebooks** and I tried the new environment **Jupyter lab**. More details [here](https://blog.jupyter.org/jupyterlab-is-ready-for-users-5a6f039b8906).
+I am a huge fan of **jupyter notebooks** and I tried the new environment **Jupyter lab**. More details about jupyter lab [here](https://blog.jupyter.org/jupyterlab-is-ready-for-users-5a6f039b8906).
 
 Modules used and versions (most of them were installed by default):
 
@@ -125,6 +125,12 @@ zlib                      |1.2.11
 
 ## Get the data
 
+Prior to that analysis there were no data set available, so I built my own using the [UFC public data API](http://ufc-data-api.ufc.com/). Thanks to that RESTful API, I could have data on fighters, events and even UFC news. 
+
 ## Results
 
+I invite you to read the notebooks in the [notebooks directory](https://github.com/goujonbe/ufc-data-analysis/tree/master/notebooks), espescially the notebook called "data analysis". You will find some insights on the evolution of mixed martial arts, information about legends of this sport and a bit of history for those who are curious.
+
 ## What's next?
+
+If you want to take my data set to analyze it yourself, you're free to go and I would be happy to see what you can do with it. As far as I'm concerned, I will come back to this project as soon as possible, there is still a lot of room for improvement! If you have any comment, please tell me!
