@@ -22,6 +22,18 @@ The notebooks directory contains documented python code and conclusions from the
 
 The data directory contains the data sets used for this project.
 
+## Get the data
+
+Prior to that analysis there were no data set available, so I built my own using the [UFC public data API](http://ufc-data-api.ufc.com/). Thanks to that RESTful API, I could have data on fighters, events and even UFC news. 
+
+## Results
+
+I invite you to read the notebooks in the [notebooks directory](https://github.com/goujonbe/ufc-data-analysis/tree/master/notebooks), espescially the notebook called "data analysis". You will find some insights on the evolution of mixed martial arts, information about legends of this sport and a bit of history for those who are curious.
+
+## How to access this work?
+
+If you want to run it, you can clone the repository but you may have some troubles with the python version I used and the different libraries I chose. So I would recommend to simply visualize the results with the notebook viewer available [here](http://jupyter.org/) or to load it into colab, the new tool from Google that allows you to run notebooks directly in the cloud.
+
 ## Setup
 
 For this project, I used [Anaconda](https://www.anaconda.com/), a popular data science platform for Python. I espescially used conda as a package manager.
@@ -122,14 +134,6 @@ wheel                     |0.31.1
 xz                        |5.2.4                
 zeromq                    |4.2.5    
 zlib                      |1.2.11              
-
-## Get the data
-
-Prior to that analysis there were no data set available, so I built my own using the [UFC public data API](http://ufc-data-api.ufc.com/). Thanks to that RESTful API, I could have data on fighters, events and even UFC news. 
-
-## Results
-
-I invite you to read the notebooks in the [notebooks directory](https://github.com/goujonbe/ufc-data-analysis/tree/master/notebooks), espescially the notebook called "data analysis". You will find some insights on the evolution of mixed martial arts, information about legends of this sport and a bit of history for those who are curious.
 
 ## What's next?
 
